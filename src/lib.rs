@@ -30,6 +30,7 @@ mod tests {
         assert_eq!(0, and(0, 1));
         assert_eq!(0, and(1, 0));
         assert_eq!(0, and(0, 0));
+        assert!(false);
     }
 
     #[test]
